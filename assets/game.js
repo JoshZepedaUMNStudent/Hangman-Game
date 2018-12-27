@@ -34,7 +34,7 @@ function gameStart() {
             answerArray[i] = "_";
         }
     } else {
-        document.getElementById("messageBox").innerHTML = "Good Job!";
+        document.getElementById("messageBox").innerHTML = "GOOD JOB!";
     }
     // Display stats
     document.getElementById("underscores").innerHTML = answerArray.join(" ");
@@ -56,7 +56,7 @@ function playerWins() {
 // Check if player loses
 function playerLoses() {
     if (remainingGuess <= 0) {
-        document.getElementById("messageBox").innerHTML = "Sorry, you lost. Click button to play again.";
+        document.getElementById("messageBox").innerHTML = "SORRY, YOU LOST. CLICK BUTTON TO PLAY AGAIN.";
         losses++;
         setState = "stopped";
     }
